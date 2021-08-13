@@ -1,18 +1,18 @@
 ---
 # Title, summary, and page position.
-linktitle: ScholarView
+linktitle: 网页应用：Google Scholar数据可视化系统
 summary: 
 weight: 1
 icon: book-reader
 icon_pack: fas
 
 # Page metadata.
-title: ScholarView
+title: 网页应用：Google Scholar数据可视化系统
 date: "2021-08-10T00:07:26Z"
 type: book  # Do not modify.
 ---
 
-谷歌学者数据可视化系统
+
 ## Demo of the Project
 Please find the video demo of the project here: https://www.youtube.com/watch?v=qVbehPwiN7Y
 

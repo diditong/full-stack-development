@@ -4,6 +4,5 @@ type: book  # Do not modify.
 toc: false
 ---
 
-Welcome to React!
-
-{{< cta cta_text="👉 Get Started with Chapter 1" cta_link="hooks" >}}
+这里主要记录在学习React过程中的感悟
+{{< cta cta_text="👉 Get Started" cta_link="hooks" >}}

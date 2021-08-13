@@ -2,7 +2,7 @@
 # Title, summary, and page position.
 linktitle: Tencent
 summary: 
-weight: 1
+weight: 4
 icon: book-reader
 icon_pack: fas
 
@@ -11,3 +11,6 @@ title: Intern @ Tencent
 date: "2021-08-12T00:10:14Z"
 type: book  # Do not modify.
 ---
+
+这里主要记录在腾讯暑假实习时期的工作
+{{< cta cta_text="👉 Get Started" cta_link="upload_json" >}}

@@ -4,6 +4,5 @@ type: book  # Do not modify.
 toc: false
 ---
 
-Welcome to JavaScript!
-
-{{< cta cta_text="👉 Get Started with Chapter 1" cta_link="implementations" >}}
+这里主要记录曾经学过的JavaScript知识
+{{< cta cta_text="👉 Get Started" cta_link="implementations" >}}
