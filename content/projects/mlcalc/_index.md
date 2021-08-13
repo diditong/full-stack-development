@@ -1,13 +1,13 @@
 ---
 # Title, summary, and page position.
-linktitle: 网页应用：数据科学计算器
+linktitle: Machine Learning Calculator (Web App)
 summary: 
 weight: 2
 icon: book-reader
 icon_pack: fas
 
 # Page metadata.
-title: 网页应用：数据科学计算器
+title: Machine Learning Calculator (Web App)
 date: "2021-08-10T00:07:24Z"
 type: book  # Do not modify.
 ---

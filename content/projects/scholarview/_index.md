@@ -1,31 +1,31 @@
 ---
 # Title, summary, and page position.
-linktitle: 网页应用：Google Scholar数据可视化系统
+linktitle: Google Scholar Visualization System (Web App)
 summary: 
 weight: 1
 icon: book-reader
 icon_pack: fas
 
 # Page metadata.
-title: 网页应用：Google Scholar数据可视化系统
+title: Google Scholar Visualization System (Web App)
 date: "2021-08-10T00:07:26Z"
 type: book  # Do not modify.
 ---
 
 
-## Demo of the Project
-Please find the video demo of the project here: https://www.youtube.com/watch?v=qVbehPwiN7Y
+## Overview of the Project
+This project is a group project for CS411 in Spring 2020. I led a team of four students to create a web app with both frontend UIs and backend service. Please find the video demo of the project here: https://www.youtube.com/watch?v=qVbehPwiN7Y
 
-## 主旨
+## Purpose
 通过展示UIUC教授的谷歌学者数据，帮助人们更好的理解学者的学术成果和学术历史和学术影响力等等信息
 ![image info](./images/vis.JPG)
 
-## 意义
+## What I learned
 1.	学习了HTML/CSS的基础，和JS基础，页面的布局，怎么使用charts
 2.	学习了前后端的连接，如何使用云端数据库，怎么样把网站部署到云端，怎么写SQL
 3.	利用前端和后台数据库，创建了一个账户管理系统
 
-## 难点
+## Challenges
 ### 1. 产品上的
 #### 怎么样设计数据可视化系统才能让用户更好地了解一个教授的学术历史？用什么数据？如何处理数据？用什么图表
 a. 比如为了展示教授的研究方向，我们把教授发表的paper的标题用网络爬虫爬取出来，然后分解成一个个的单词，去掉无意义的单词比如冠词，代词，连词等等，剩下的单词按照出现频率来用word cloud来展示\
