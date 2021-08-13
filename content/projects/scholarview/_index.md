@@ -17,23 +17,23 @@ type: book  # Do not modify.
 This project is a group project for CS411 in Spring 2020. I led a team of four students to create a web app with both frontend UIs and backend service. Please find the video demo of the project here: https://www.youtube.com/watch?v=qVbehPwiN7Y
 
 ## Purpose
-通过展示UIUC教授的谷歌学者数据，帮助人们更好的理解学者的学术成果和学术历史和学术影响力等等信息
+Build a product that helps people understand a scholar's research history and academic impact through data visualization.
 ![image info](./images/vis.JPG)
 
 ## What I learned
-1.	学习了HTML/CSS的基础，和JS基础，页面的布局，怎么使用charts
-2.	学习了前后端的连接，如何使用云端数据库，怎么样把网站部署到云端，怎么写SQL
-3.	利用前端和后台数据库，创建了一个账户管理系统
+1. I learned web development fundamentals: JavaScript Language, HTML, CSS, and how to use data visualization libraries, e.g., D3.js and amCharts.
+2. I learned backend development by creating backend service, connecting my server to databases, and deploying the project to AWS.
+3. I learned object-oriented design by creating a user management system from scratch.
 
 ## Challenges
-### 1. 产品上的
+### 1. Product Design Challenges
 #### 怎么样设计数据可视化系统才能让用户更好地了解一个教授的学术历史？用什么数据？如何处理数据？用什么图表
 a. 比如为了展示教授的研究方向，我们把教授发表的paper的标题用网络爬虫爬取出来，然后分解成一个个的单词，去掉无意义的单词比如冠词，代词，连词等等，剩下的单词按照出现频率来用word cloud来展示\
 ![image info](./images/word_cloud.JPG)
 b. 再比如为了展示教授在学术圈内的关系，我们统计了教授的每个合作作者的共享引用次数，然后用力导引图展示了共享引用次数前十名的合作作者
 ![image info](./images/force_diagram.JPG)
 
-### 2. 技术上的
+### 2. Technical Challenges
 主要有三个技术方面的难题:
 #### 爬取数据
 难点：谷歌学者上面的数据要用网络爬虫来爬取，转化成合适的格式才能保存在数据库里面\
