@@ -4,9 +4,21 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  # - name: Home
+  #   url: /
+  #   weight: 10
+  # - name: Test
+  #   url: docs/
+  #   weight: 20
+  - name: Profile
     url: /
-    weight: 10
-  - name: Documentation
-    url: docs/
-    weight: 20
+    weight: 90
+  - name: JavaScript
+    url: js/
+    weight: 100
+  - name: React
+    url: react/
+    weight: 110
+  - name: Projects
+    url: projects/
+    weight: 120
