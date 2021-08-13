@@ -1,27 +1,20 @@
 ---
-title: Swagger JSON导入功能开发纪录
-linktitle: Swagger JSON导入功能开发纪录
+title: Parsing the OpenAPI Definitions
+linktitle: Parsing the OpenAPI Definitions
 type: book
 date: "2021-08-12T07:20:00+08:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-## 综述
+## Overview
 Swagger是接口设计的工具，它设计的接口可以导出json，目前swagger有两个标准： OpenAPI Specification 2（OSA2）和OpenAPI Specification 3（OSA3），3比2的规范更细致更全面，前面两周的开发主要集中在OSA2。
 
 开发Tolstoy的上传功能，主要有两个资源可以利用：
 1. Swagger的官方文档
 2. 类似工具如yapi的swagger上传功能：
 
-## 功能总结
-目前已经开发出来的功能，和对应的测试用例如下
-
-功能1-解析properties，schema和$ref        test0-test10
-功能2-支持非200字段的解析与展示             test6-8
-功能3-支持接口上传自动分类                 test0-test10
-
-## 技术方案
-### 功能1：支持无限循环结构的解析
+## Solution
+### Function 1：Parsing an infinite-loop structure
 前一版的swagger上传功能无法成功解析properties, schema和$ref，无法成功解析parameters和responses（分别对应请求和响应）中的无限循环结构（无限$ref），这一版重新写了四个解析函数：getResponse, getRequest, getRespChildrenFromProps, getReqChildrenFromDef
 
 这四个函数用到的逻辑几乎是相同的，因此未来可以在此处优化，之所以对相似的功能写了四个函数是因为
@@ -33,7 +26,7 @@ Swagger是接口设计的工具，它设计的接口可以导出json，目前swa
 	2. 统一数据结构后，由于getResponse和getRequest的功能非常相似，可以将二者合一（须注意parameters和responses字段结构的差异）
 	3. getRespChildrenFromProps, getReqChildrenFromDef相当于是前两者的辅助函数，作用是获取请求和响应的children，因此也可以将二者合一
 
-### 功能2：支持非200字段的解析与展示
+### Function 2: Parsing and presenting non-200 responses
 前一版的解析功能只能展示swaggerjson中响应字段为“200”（成功）的情况：
 ![image info](../images/upload_JSON/1.png)
 
@@ -47,10 +40,10 @@ Swagger是接口设计的工具，它设计的接口可以导出json，目前swa
 ![image info](../images/upload_JSON/4.png)
 
 
-### 功能3：支持上传接口自动分类
+### Function 3: Auto categorizing interfaces upon uploading
 前一版的上传功能和分类功能没有打通，只能在新增接口时分类，这一版可以根据swagger的最外层的tags属性和每一个接口内部的tags属性来自动分类
 
-### 功能4：支持header，query，path，formData等请求参数的展示和编辑
+### Function 4: Parsing and presenting header, query, and path parameters
 这一功能与功能2的类似，可以采用相似的办法处理，结果如下
 
 （非请求体）参数的展示
@@ -59,7 +52,15 @@ Swagger是接口设计的工具，它设计的接口可以导出json，目前swa
 （非请求体）参数的编辑
 ![image info](../images/upload_JSON/6.png) 
  
-存在问题：
+## New Features 
+目前已经开发出来的功能，和对应的测试用例如下
+
+功能1-解析properties，schema和$ref        test0-test10
+功能2-支持非200字段的解析与展示             test6-8
+功能3-支持接口上传自动分类                 test0-test10
+
+
+## Issues
 先满足大多数的上传需求，可根据用户需求细化/强化功能，以下是一些目前发现的优先级比较低的小问题，
 1. 支持allOf字段：有的swaggerjson里面会使用allOf字段
 2. 支持返回的header字段和以及files类型：https://swagger.io/docs/specification/2-0/describing-responses/
