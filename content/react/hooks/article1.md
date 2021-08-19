@@ -25,7 +25,7 @@ return value是useEffect的cleanup机制，后面接返回时要执行的函数�
 写了一个每一秒钟print一个hello world的程序：https://codesandbox.io/s/vibrant-goldberg-qhqt5
  
 关于React memo https://dmitripavlutin.com/use-react-memo-wisely/
-1. React组件会在state或props发生改变时自动重新渲染，在一些情况下会造成unnecessary 渲染s。比如，如果Parent组件包含Child组件，Parent的一个prop经常变化但是Child的props不变，那么每次都要重新渲染 Child组件。为了提升性能，可以给Child组件包裹一层React.memo，这样，在下一次渲染之前，React会把Child的props 和前一次渲染比较，若props没有改变，则直接跳过下一次渲染，例子：https://codesandbox.io/s/holy-brook-0r3pd?file=/src/App.js:507-565
+1. React组件会在state或props发生改变时自动重新渲染，在一些情况下会造成unnecessary 渲染。比如，如果Parent组件包含Child组件，Parent的一个prop经常变化但是Child的props不变，那么每次都要重新渲染 Child组件。为了提升性能，可以给Child组件包裹一层React.memo，这样，在下一次渲染之前，React会把Child的props 和前一次渲染比较，若props没有改变，则直接跳过下一次渲染，例子：https://codesandbox.io/s/holy-brook-0r3pd?file=/src/App.js:507-565
 2. 如果是function做props还要把function给用useCallback包裹起来，这是useCallback的用途之一，例子同上：https://codesandbox.io/s/holy-brook-0r3pd?file=/src/App.js:507-565
 3. 什么样的组件适合用React.memo？
 组件比较大，经常渲染，经常传入同样的props
