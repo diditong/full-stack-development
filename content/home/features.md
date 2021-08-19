@@ -1,20 +1,4 @@
----
-widget: featurette
-headless: true
-weight: 20
-title: Features
-subtitle: Document _anything_ ✨
-feature:
-  - icon: book-open
-    icon_pack: fas
-    name: Project Documentation
-    description: For users
-  - icon: question
-    icon_pack: fas
-    name: Knowledge Base
-    description: For teams
-  - icon: list-alt
-    icon_pack: fas
-    name: Personal Notebook
-    description: For yourself
----
+
+
+
+Hello. I am Jiashuo Tong, a second-year MSCS student at University of Southern California. Here is the place where I document my previous experiences in software development and my knowledge in algorithms, data structures, programming languages, etc. 

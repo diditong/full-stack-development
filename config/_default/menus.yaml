@@ -10,9 +10,6 @@ main:
   # - name: Test
   #   url: docs/
   #   weight: 20
-  - name: Profile
-    url: /
-    weight: 90
   - name: JavaScript
     url: js/
     weight: 100
