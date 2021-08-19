@@ -8,7 +8,7 @@ icon_pack: fas
 
 # Page metadata.
 title: Simulation
-date: "2021-08-18T11:06:00Z"
+date: "2021-08-18T12:20:00Z"
 type: book  # Do not modify.
 ---
 
@@ -18,3 +18,7 @@ There are some problems to which you cannot formulate a faster solution other th
 2. Diagonal Traverse: https://leetcode.com/problems/diagonal-traverse/
 
 One commonality of these problems is that a solution is already explicit in the problem statement. We don't need to waste the brain power trying to find another one. All we need to do is to directly code up that solution and debug it.
+
+A collection of problems of this type:
+1. Almost Tetris
+2. Diagonal Traverse
