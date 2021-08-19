@@ -12,7 +12,7 @@ date: "2021-08-18T11:06:00Z"
 type: book  # Do not modify.
 ---
 
-There are some problems in which you cannot formulate a faster solution other than the silly brute-force solution in 10 minutes. It is not always because you lack the training to detect a pattern. Quite often it is the brute force solution that is the anticipated answer. I call them simulation problems. Here are a list of such problems:
+There are some problems to which you cannot formulate a faster solution other than the silly brute-force solution in 10 minutes. It is not always because you lack the training to detect a pattern. Quite often it is the brute force solution that is the anticipated answer. I call them simulation problems. Here are a list of such problems:
 
 1. Almost Tetris: https://leetcode.com/discuss/interview-question/891654/postmates-oa-almost-tetris
 2. Diagonal Traverse: https://leetcode.com/problems/diagonal-traverse/
