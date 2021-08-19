@@ -6,7 +6,7 @@ Hello. I am Jiashuo Tong, a second-year MSCS student at University of Southern C
 This is the place where I document my previous experiences in software development and my knowledge in data structures & algorithms, programming languages, web development, etc. 
 
 Here is a list of links:
-1. For my precious projects, please click on 
+1. For my previous projects, please click on 
 {{< cta cta_text="👉 Previous Projects" cta_link="projects" >}}
 
 2. For posts on JavaScript, please click on 
