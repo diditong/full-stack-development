@@ -7,7 +7,7 @@ This is the place where I document my previous experiences in software developme
 
 Here is a list of links:
 1. For my previous projects, please click on 
-{{< cta cta_text="👉 Previous Projects" cta_link="projects" >}}
+{{< cta cta_text="👉 Projects" cta_link="projects" >}}
 
 2. For posts on JavaScript, please click on 
 {{< cta cta_text="👉 JavaScript" cta_link="js" >}}
