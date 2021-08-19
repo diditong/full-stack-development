@@ -12,7 +12,7 @@ date: "2021-08-18T11:06:00Z"
 type: book  # Do not modify.
 ---
 
-For this type of problems, you usually get a number or a group of numbers as the input, perform some manipulations on it/them, and return the result. The most common manipulations involved are reversing an integer, swapping digits, etc. One useful technique to accomplish such tasks is to break up the integer in to an array of individual digits, and move/change the digits.
+For this type of problems, you usually get a number or a group of numbers as the input, perform some manipulations on it/them, and return the result. The most common manipulations involved are reversing an integer, swapping digits, etc. One useful technique to accomplish such tasks is to break up the integer into an array of individual digits, and move/change the digits.
 
 ```js
 const swapNumberByPair = (num) => {
