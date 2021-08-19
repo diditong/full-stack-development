@@ -10,12 +10,16 @@ main:
   # - name: Test
   #   url: docs/
   #   weight: 20
-  - name: JavaScript
-    url: js/
-    weight: 100
-  - name: React
-    url: react/
-    weight: 110
   - name: Projects
     url: projects/
+    weight: 100
+  - name: JavaScript
+    url: js/
+    weight: 110
+  - name: React
+    url: react/
     weight: 120
+  - name: Algorithms
+    url: algorithms/
+    weight: 130
+
