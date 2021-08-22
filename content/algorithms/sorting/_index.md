@@ -11,7 +11,6 @@ title: Sorting Algorithms
 date: "2021-08-18T15:30:00Z"
 type: book  # Do not modify.
 ---
-
 1. Quick Sort
 ```js
 const partition = (nums, lo, hi, k) => {
@@ -149,3 +148,34 @@ Avg. time complexity:
 Best case:
 Worst case:
 
+
+Sorting Algorithms
+
+Tree Sort 
+
+1. Build a BST
+2. Perform In-order Traversal
+
+Heap Sort
+
+1. Build a heap from the data
+2. Pop the heap into a stack
+3. Do 2 until the heap is empty
+
+Pancake Sort - for sorting pancakes
+
+
+Sorting Algorithms For Structured Data:
+
+Bucket Sort - for sorting numbers that are evenly distributed in a range
+
+
+Counting Sort - for sorting integers that are distributed in a small range
+
+
+Cycle Sort - for sorting consecutive integers
+
+
+
+
+QMBRSIPHB
