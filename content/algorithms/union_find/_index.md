@@ -8,7 +8,7 @@ icon_pack: fas
 
 # Page metadata.
 title: Union Find
-date: "2021-08-21T06:21:00Z"
+date: "2021-08-22T19:32:00Z"
 type: book  # Do not modify.
 ---
 

@@ -24,9 +24,8 @@ If you know it when you need a trie to solve a problem, the rest to do would be 
 ```js
 var getTrie = function(words) {
     var trie = new Object();
-    var obj;
     for (const word of words) {
-        obj = trie;
+        const obj = trie;
         for (const char of word) {
             if (!obj[char]) {
                 obj[char] = new Object();
