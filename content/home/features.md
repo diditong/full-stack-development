@@ -1,12 +1,11 @@
 
-Hello! I am Jiashuo Tong, an MSCS student at University of Southern California. Previously, I completed a B.S. and M.S. in Mechanical Engineering at University of Illinois Urbana-Champaign. Here is my LinkedIn profile: https://www.linkedin.com/in/jiashuotong/
-
-I have done several exciting projects and two rewarding internships in software development. I have tremendous interest in frontend/full stack engineering. I also enjoy learning numerical analysis and computer graphics.
+Hello! I am Jiashuo Tong, an MSCS student at University of Southern California. Here is my LinkedIn profile: https://www.linkedin.com/in/jiashuotong/
 
 I created this website for two purposes:
 1. Document my practical and theoretical knowledge in software development, data structures, algorithms, programming languages, etc. 
 2. Let people know about my past experiences and connect myself with potential job opportunities.
 
+I have project experiences with multiple languages and frameworks (Python, JavaScript, TypeScript, Java, C++, Spring Boot, Python Flask, React, Angular, MySQL, NoSQL, etc.). My strengths reside in designing and writing efficient algorithms to solve problems and utilizing cloud computing resources to increase productivity.
 
 Here is a list of links:
 1. For the past projects I have worked on, please click on 
