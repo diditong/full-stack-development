@@ -1,5 +1,5 @@
 
-Hello! I am Jiashuo Tong, an MSCS student at University of Southern California. Here is my LinkedIn profile: https://www.linkedin.com/in/jiashuotong/
+Hello! I am Jiashuo Tong, a master's student in Computer Science at University of Southern California. Here is my LinkedIn profile: https://www.linkedin.com/in/jiashuotong/
 
 I created this website for two purposes:
 1. Document my practical and theoretical knowledge in software development, data structures, algorithms, programming languages, etc. 
