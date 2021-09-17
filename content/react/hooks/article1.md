@@ -1,6 +1,6 @@
 ---
-title: 探究useEffect，useMemo, useCallback
-linktitle: 探究useEffect，useMemo, useCallback
+title: About useEffect，useMemo, and useCallback
+linktitle: About useEffect，useMemo, and useCallback
 type: book
 date: "2021-08-12T07:20:00+08:00"
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
